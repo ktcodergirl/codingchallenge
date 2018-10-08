@@ -13,8 +13,8 @@ dependencyOverrides += "com.fasterxml.jackson.module" % "jackson-module-scala_2.
 
 // test dependencies
 libraryDependencies ++= Seq(
-  "org.apache.spark" %% "spark-core" % sparkVersion % "provided",
-  "org.apache.spark" %% "spark-sql" % sparkVersion  % "provided",
+  "org.apache.spark" %% "spark-core" % sparkVersion,
+  "org.apache.spark" %% "spark-sql" % sparkVersion,
 
   "com.typesafe.play" % "play-json_2.11" % "2.5.18" % "test",
   // test dependencies

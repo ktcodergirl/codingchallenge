@@ -76,13 +76,13 @@ mvn package
 In Scala:
 
 ```bash
-spark-submit --master "local[2]" --class com.ma.analytics.MyApp target/scala-2.11/spark-code-challenge-assembly-0.1.jar <any additional params>
+spark-submit --master "local[2]" --class com.ma.analytics.MyApp target/scala-2.11/spark-code-challenge-assembly-0.1.jar 20171201
 ```
 
 In Java:
 
 ```bash
-spark-submit --master "local[2]" --class com.ma.analytics.MyJavaApp target/java-code-challenge-0.1.jar <any additional params>
+spark-submit --master "local[2]" --class com.ma.analytics.MyJavaApp target/java-code-challenge-0.1.jar 20171201
 ```
 
 
